@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+class Men{
+  private:
+    string name;
+  public:
+    Men(string name):name(name){};
+    void show(){
+      cout<<name<<endl;
+    }
+};
